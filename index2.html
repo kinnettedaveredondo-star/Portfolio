@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top left, #0F172A, #020617);
+  color: #E5E7EB;
+}
+
+/* MAIN GRID */
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+  padding: 30px;
+}
+
+/* GLASS STYLE */
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 25px rgba(34,211,238,0.08);
+}
+
+/* LEFT PANEL */
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 34px;
+}
+
+.hero span {
+  color: #22D3EE;
+}
+
+.hero p {
+  margin: 15px 0;
+  color: #9CA3AF;
+}
+
+.btn {
+  background: linear-gradient(90deg, #06B6D4, #22D3EE);
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  color: #020617;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px #22D3EE;
+}
+
+/* HEX IMAGE */
+.hex {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(145deg, #22D3EE, #06B6D4);
+  clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px #22D3EE;
+}
+
+.hex img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  clip-path: inherit;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  gap: 25px;
+  padding: 30px;
+  align-items: center;
+}
+
+.about-text h3 {
+  color: #22D3EE;
+}
+
+/* RIGHT PANEL */
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* SERVICES */
+.services {
+  padding: 20px;
+}
+
+.service-box {
+  display: flex;
+  gap: 10px;
+}
+
+.service {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.service:hover {
+  box-shadow: 0 0 15px #22D3EE;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 20px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.project {
+  height: 70px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #1E293B, #0F172A);
+}
+
+/* CONTACT */
+.contact {
+  padding: 20px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255,255,255,0.05);
+  color: white;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px #22D3EE;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px){
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- LEFT SIDE -->
+  <div class="left">
+    
+    <div class="hero glass">
+      <div>
+        <h2>Hello, I'm <span>John Kendrick</span></h2>
+        <p>Frontend Developer creating futuristic UI experiences.</p>
+        <button class="btn">Download CV</button>
+      </div>
+      <div class="hex">
+        <img src="https://via.placeholder.com/300">
+      </div>
+    </div>
+
+    <div class="about glass">
+      <div class="hex">
+        <img src="https://via.placeholder.com/300">
+      </div>
+      <div class="about-text">
+        <h3>About Me</h3>
+        <p>I build modern interfaces with glassmorphism and neon design systems.</p>
+        <button class="btn">Read More</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right">
+
+    <div class="services glass">
+      <h3>Our Services</h3>
+      <div class="service-box">
+        <div class="service glass">Web Dev</div>
+        <div class="service glass">Design</div>
+        <div class="service glass">Marketing</div>
+      </div>
+    </div>
+
+    <div class="projects glass">
+      <h3>Latest Project</h3>
+      <div class="project-grid">
+        <div class="project"></div>
+        <div class="project"></div>
+        <div class="project"></div>
+        <div class="project"></div>
+      </div>
+    </div>
+
+    <div class="contact glass">
+      <h3>Contact Me</h3>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea rows="3" placeholder="Message"></textarea>
+      <button class="btn">Send Message</button>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

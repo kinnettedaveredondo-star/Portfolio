@@ -1,0 +1,117 @@
+{
+  "personal": {
+    "name": "Kinnette Dave Redondo",
+    "title": "Network Support Engineer",
+    "subtitle": "IT Infrastructure Specialist",
+    "description": "Technical & Network Support professional with 8+ years of experience delivering quality IT infrastructure solutions and exceptional technical support.",
+    "email": "kinnetedaveredondo@gmail.com",
+    "phone": "+63 931 215 7391",
+    "location": "Balingasag, Misamis Oriental, Philippines",
+    "profileImage": "https://via.placeholder.com/300"
+  },
+  "about": {
+    "bio": "Technical & Network Support Engineer with extensive experience, critical thinking, and great problem-solving abilities in network, hardware, and software applications. Skilled in managing high-volume ticketing systems (MSP). Proactive and experienced in high-pressure team environments.",
+    "interests": "Analytical and trained to work on different hardware, network, and software errors. Excellent at tackling technical issues, tracing root causes, and correcting errors. I work great alone or with others to deliver quality support and infrastructure solutions.",
+    "stats": {
+      "projects": "1000+",
+      "clients": "100+",
+      "experience": "8+"
+    }
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/in/kinnettedaveredondo",
+    "email": "kinnetedaveredondo@gmail.com"
+  },
+  "projects": [
+    {
+      "title": "Network Infrastructure Management",
+      "description": "Managed and optimized network infrastructure across multiple sites using Cisco products, SDWAN controllers, and high availability network designs.",
+      "technologies": ["Cisco", "SDWAN", "Network Design"],
+      "link": "#",
+      "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "title": "IT Infrastructure & Support Systems",
+      "description": "Implemented ticketing systems (ServiceNow, manageEngine), managed Active Directory, DNS, DHCP servers, and provided comprehensive IT support across organizations.",
+      "technologies": ["ServiceNow", "Active Directory", "Windows Server"],
+      "link": "#",
+      "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+    },
+    {
+      "title": "IT Training & Development",
+      "description": "Taught fundamentals of IT, network administration, programming (C#, Java), server configuration, and guided students in computer systems and network design.",
+      "technologies": ["Teaching", "C#", "Java"],
+      "link": "#",
+      "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+    }
+  ],
+  "skills": {
+    "Networking": [
+      "Cisco Products (Cedge, MR APs, Catalyst)",
+      "Meraki Switches & Controllers",
+      "SDWAN Architecture",
+      "Network Design & Troubleshooting",
+      "High Availability (HSRP, VRRP)"
+    ],
+    "System Administration": [
+      "Windows & Linux",
+      "Active Directory & GPO",
+      "DNS, DHCP, VMware",
+      "Windows Server Installation",
+      "Network Configuration"
+    ],
+    "IT Support & Tools": [
+      "ServiceNow Ticketing",
+      "manageEngine ServiceDesk",
+      "MS Office 365 & SharePoint",
+      "Data Cabling & Asset Management",
+      "Onsite/Remote/Phone Support"
+    ],
+    "Technical & Programming": [
+      "PHP, Python, Java, JavaScript",
+      "Data Analysis (Excel, Power BI)",
+      "MySQL & PostgreSQL",
+      "Problem-Solving & Troubleshooting",
+      "C#, Visual Studio"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Network Support Engineer",
+      "company": "Infus & Technologies, Inc.",
+      "startDate": "April 2025",
+      "endDate": "Present",
+      "description": "Configure Meraki switches and APs through CLI and Meraki Dashboard. Design High Availability networks using HSRP, VRRP, and failover strategies. Collaborate with Cisco and Telco partners. Manage infrastructure using ServiceNow ticketing system."
+    },
+    {
+      "title": "Sr. Technical Support Engineer",
+      "company": "Systematch, Inc.",
+      "startDate": "April 2020",
+      "endDate": "April 2025",
+      "description": "Set up, troubleshoot, and oversee IT infrastructure across multiple sites. Managed high-volume ticketing (manageEngine), data structured cabling, Active Directory, and asset inventory. Provided end-user support via onsite, remote, and phone. Created IT infrastructure recommendations and managed credentials during employee onboarding/offboarding."
+    },
+    {
+      "title": "BSIT Instructor / IT Personnel",
+      "company": "St. Rita's College of Balingasag",
+      "startDate": "April 2016",
+      "endDate": "March 2020",
+      "description": "Taught fundamentals of IT including C#, Visual Studio, Java, Network Administration, and Computer Organization. Managed server infrastructure, Active Directory, GPO, and network configuration. Maintained computer systems and handled CCTV administration and ID system design."
+    },
+    {
+      "title": "Internship",
+      "company": "Interface Computer Systems",
+      "startDate": "November 2015",
+      "endDate": "February 2016",
+      "description": "Computer assembly and troubleshooting (hardware and software). Provided customer service and technical support."
+    }
+  ],
+  "colors": {
+    "primary": "#667eea",
+    "secondary": "#764ba2",
+    "textDark": "#333",
+    "textLight": "#666",
+    "bgLight": "#f7f9fc",
+    "bgWhite": "#ffffff",
+    "borderColor": "#e0e0e0"
+  }
+}
