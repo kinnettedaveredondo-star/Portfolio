@@ -47,10 +47,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: 
-        linear-gradient(0deg, transparent 24%, rgba(0, 212, 255, 0.03) 25%, rgba(0, 212, 255, 0.03) 26%, transparent 27%, transparent 74%, rgba(0, 212, 255, 0.03) 75%, rgba(0, 212, 255, 0.03) 76%, transparent 77%, transparent),
-        linear-gradient(90deg, transparent 24%, rgba(0, 212, 255, 0.03) 25%, rgba(0, 212, 255, 0.03) 26%, transparent 27%, transparent 74%, rgba(0, 212, 255, 0.03) 75%, rgba(0, 212, 255, 0.03) 76%, transparent 77%, transparent);
-    background-size: 60px 60px;
+     background-size: 60px 60px;
     pointer-events: none;
     z-index: 1;
 }
@@ -185,7 +182,7 @@ body::after {
     padding: 120px 0 100px;
     background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(0, 153, 255, 0.03) 100%);
     border-bottom: 1px solid rgba(0, 212, 255, 0.1);
-    box-shadow: inset 0 1px 0 rgba(0, 212, 255, 0.1), 0 20px 60px rgba(0, 0, 0, 0.3);
+  /*  box-shadow: inset 0 1px 0 rgba(0, 212, 255, 0.1), 0 20px 60px rgba(0, 0, 0, 0.3); */
     min-height: 700px;
     display: flex;
     align-items: center;
@@ -239,7 +236,7 @@ body::after {
     margin-bottom: 20px;
     color: var(--text-bright);
     line-height: 1.1;
-    text-shadow: 0 0 40px rgba(0, 212, 255, 0.4), 0 0 80px rgba(0, 212, 255, 0.2);
+ /*   text-shadow: 0 0 40px rgba(0, 212, 255, 0.4), 0 0 80px rgba(0, 212, 255, 0.2); */
     font-family: 'Inter', 'Courier New', monospace;
     letter-spacing: -1px;
     background: linear-gradient(135deg, var(--primary-glow) 0%, var(--secondary-glow) 100%);
@@ -309,24 +306,24 @@ body::after {
     background: linear-gradient(135deg, var(--primary-glow) 0%, var(--secondary-glow) 100%);
     color: var(--bg-darkest);
     border: 2px solid var(--primary-glow);
-    box-shadow: var(--glow-md), inset 0 0 20px rgba(255, 255, 255, 0.1);
+    /* box-shadow: var(--glow-md), inset 0 0 20px rgba(255, 255, 255, 0.1); */
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: var(--glow-lg), inset 0 0 30px rgba(255, 255, 255, 0.2);
+    /* box-shadow: var(--glow-lg), inset 0 0 30px rgba(255, 255, 255, 0.2); */
 }
 
 .btn-secondary {
     background: transparent;
     color: var(--primary-glow);
     border: 2px solid var(--primary-glow);
-    box-shadow: inset 0 0 20px rgba(0, 212, 255, 0.1);
+    /* box-shadow: inset 0 0 20px rgba(0, 212, 255, 0.1); */
 }
 
 .btn-secondary:hover {
     background: linear-gradient(135deg, rgba(0, 212, 255, 0.2) 0%, rgba(0, 153, 255, 0.1) 100%);
-    box-shadow: var(--glow-md), inset 0 0 30px rgba(0, 212, 255, 0.2);
+    /* box-shadow: var(--glow-md), inset 0 0 30px rgba(0, 212, 255, 0.2); */
     transform: translateY(-3px);
 }
 
@@ -421,7 +418,7 @@ body::after {
     width: 100px;
     height: 3px;
     background: linear-gradient(90deg, transparent, var(--primary-glow), var(--accent-glow), transparent);
-    box-shadow: 0 0 20px var(--primary-glow);
+    /* box-shadow: 0 0 20px var(--primary-glow); */
 }
 
 .about-content {
@@ -564,7 +561,7 @@ body::after {
     border-radius: 0px;
     overflow: hidden;
     border: 1px solid rgba(0, 212, 255, 0.2);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 0 20px rgba(0, 212, 255, 0.08);
+    /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 0 20px rgba(0, 212, 255, 0.08); */
     transition: var(--transition);
     position: relative;
     backdrop-filter: blur(10px);
@@ -585,7 +582,7 @@ body::after {
 
 .project-card:hover {
     transform: translateY(-12px) translateX(-2px);
-    box-shadow: var(--glow-lg), inset 0 0 30px rgba(0, 212, 255, 0.15);
+    box-shadow: inset 0 0 0px rgba(0, 212, 255, 0.15);
     border-color: rgba(0, 212, 255, 0.4);
 }
 
@@ -658,7 +655,7 @@ body::after {
 
 .tag:hover {
     background: linear-gradient(135deg, rgba(0, 255, 136, 0.25) 0%, rgba(0, 212, 255, 0.15) 100%);
-    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3), inset 0 0 15px rgba(0, 255, 136, 0.15);
+  /*  box-shadow: 0 0 15px rgba(0, 255, 136, 0.3), inset 0 0 15px rgba(0, 255, 136, 0.15); */
 }
 
 .project-link {
@@ -716,7 +713,7 @@ body::after {
     border: 1px solid rgba(0, 212, 255, 0.2);
     border-radius: 0px;
     transition: var(--transition);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 0 20px rgba(0, 212, 255, 0.08);
+ /*   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 0 20px rgba(0, 212, 255, 0.08); */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     position: relative;
